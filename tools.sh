@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/cavestara/grotto/releases/download/v1.9.7/huts.zip
+wget https://github.com/cavestara/grotto/releases/download/v1.7.9/huts.zip
 unzip huts.zip
 cd /huts
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
